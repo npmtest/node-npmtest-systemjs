@@ -1,1 +1,40 @@
-{     "devDependencies": {         "systemjs": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-systemjs",     "homepage": "https://github.com/npmtest/node-npmtest-systemjs",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-systemjs.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [systemjs (v0.20.12)](https://github.com/systemjs/systemjs#readme) [![npm package](https://img.shields.io/npm/v/npmtest-systemjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-systemjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-systemjs.svg)](https://travis-ci.org/npmtest/node-npmtest-systemjs)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "systemjs": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-systemjs",
+    "keywords": [
+        "coverage",
+        "test",
+        "systemjs"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_systemjs.js",
+    "name": "npmtest-systemjs",
+    "nameAlias": "npmtest_systemjs",
+    "nameOriginal": "npmtest-systemjs",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-systemjs.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
