@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [systemjs (v0.20.12)](https://github.com/systemjs/systemjs#readme) [![npm package](https://img.shields.io/npm/v/npmtest-systemjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-systemjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-systemjs.svg)](https://travis-ci.org/npmtest/node-npmtest-systemjs)",
+    "description": "#### test coverage for  [systemjs (v0.20.12)](https://github.com/systemjs/systemjs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-systemjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-systemjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-systemjs.svg)](https://travis-ci.org/npmtest/node-npmtest-systemjs)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "systemjs": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }

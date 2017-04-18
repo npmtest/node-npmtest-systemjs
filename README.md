@@ -1,7 +1,10 @@
-# test coverage for  [systemjs (v0.20.12)](https://github.com/systemjs/systemjs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-systemjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-systemjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-systemjs.svg)](https://travis-ci.org/npmtest/node-npmtest-systemjs)
+# npmtest-systemjs
+
+#### test coverage for  [systemjs (v0.20.12)](https://github.com/systemjs/systemjs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-systemjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-systemjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-systemjs.svg)](https://travis-ci.org/npmtest/node-npmtest-systemjs)
+
 #### Dynamic ES module loader
 
-[![NPM](https://nodei.co/npm/systemjs.png?downloads=true)](https://www.npmjs.com/package/systemjs)
+[![NPM](https://nodei.co/npm/systemjs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/systemjs)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-systemjs/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-systemjs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-systemjs/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-systemjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-systemjs/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-systemjs/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-systemjs/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-systemjs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-systemjs/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-systemjs/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-systemjs%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-systemjs/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-systemjs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-systemjs/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-systemjs/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-systemjs%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-systemjs/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-systemjs/build/test-report.html](https://npmtest.github.io/node-npmtest-systemjs/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-systemjs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-systemjs/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-systemjs/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-systemjs/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-systemjs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-systemjs/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-systemjs/build/screenCapture.npmPackageListing.svg)
 
@@ -65,13 +74,11 @@
     "main": "dist/system.src.js",
     "maintainers": [
         {
-            "name": "guybedford",
-            "email": "guybedford@gmail.com"
+            "name": "guybedford"
         }
     ],
     "name": "systemjs",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/systemjs/systemjs.git"
