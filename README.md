@@ -1,6 +1,6 @@
 # npmtest-systemjs
 
-#### test coverage for  [systemjs (v0.20.12)](https://github.com/systemjs/systemjs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-systemjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-systemjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-systemjs.svg)](https://travis-ci.org/npmtest/node-npmtest-systemjs)
+#### basic test coverage for  [systemjs (v0.20.12)](https://github.com/systemjs/systemjs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-systemjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-systemjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-systemjs.svg)](https://travis-ci.org/npmtest/node-npmtest-systemjs)
 
 #### Dynamic ES module loader
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-systemjs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-systemjs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-systemjs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-systemjs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-systemjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-systemjs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-systemjs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-systemjs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-systemjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-systemjs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-systemjs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-systemjs/build/coverage.html/index.html)
 
@@ -101,7 +101,8 @@
         "test:traceur": "mocha test/test-traceur.js -u tdd --reporter dot",
         "test:typescript": "mocha test/test-typescript.js -u tdd --reporter dot"
     },
-    "version": "0.20.12"
+    "version": "0.20.12",
+    "bin": {}
 }
 ```
 
